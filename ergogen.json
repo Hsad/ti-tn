@@ -2,7 +2,7 @@ points:
   zones:
     matrix:
       anchor:
-        rotate: 30
+        rotate: 10
 
       columns:
         pinky:
@@ -14,10 +14,10 @@ points:
             top: 
               shift: [-13,-38]
         ring:
-          rotate: -20
+          rotate: -0
 
-          origin: [-14, 5]
-          stagger: 12
+          origin: [-10, 9]
+          stagger: 14
           row_overrides:
             bottom:
               bind: [0,0,0,1]
@@ -76,4 +76,4 @@ points:
       #  Nother:
   mirror:
     ref: matrix_pinky_home
-    distance: 243.7529778
+    distance: 223.7529778

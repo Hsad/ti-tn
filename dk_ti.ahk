@@ -242,9 +242,9 @@ $NumLock::Return ;
  lower=0
  return ;
  ;, up::
- VKBCsc033 up:: 
- lower=0
- return ;
+ ;VKBCsc033 up:: 
+ ;lower=0
+ ;return ;
 
 #If (raise and lower)
  
@@ -298,9 +298,9 @@ $NumLock::Return ;
  lower=0
  return
  ;, up::
- VKBCsc033 up:: 
- lower=0
- return
+ ;VKBCsc033 up:: 
+ ;lower=0
+ ;return
  
 
 
