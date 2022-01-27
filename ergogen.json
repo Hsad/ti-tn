@@ -1,0 +1,79 @@
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: 30
+
+      columns:
+        pinky:
+          row_overrides:
+            bottom:
+              shift: [-19,19]
+
+            home:
+            top: 
+              shift: [-13,-38]
+        ring:
+          rotate: -20
+
+          origin: [-14, 5]
+          stagger: 12
+          row_overrides:
+            bottom:
+              bind: [0,0,0,1]
+              shift: [-19, 30]
+            home:
+              bind: [0.5,3,3,1]
+            top: 
+              bind: [2,3,1,1]
+        middle:
+          origin: [-30,0]
+          stagger: 5
+          rotate: -10
+        index:
+          origin: [0,-10]
+          stagger: -6
+          rotate: -5
+        inner:
+          origin: [-30,100]
+          stagger: 6
+          
+          row_overrides:
+            home:
+            bottom:
+      rows:
+        bottom:
+        home:
+        top:
+    thumbfan:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-15, -50]
+        rotate: -110
+
+      columns:
+        near: 
+          row_overrides:
+            bottom:
+            home:
+              shift: [2,2]
+              rotate: -10
+            top: 
+              shift: [8,4]
+              rotate: -20
+
+        #home:
+        #  spread: 19
+        #  #rotate: -28
+        #  origin: [-11.75, -9]
+        #far:
+        #  #spread: 19
+        #  #rotate: 0
+        #  origin: [-9.5, -9]
+      #rows:
+      #  thumb:
+      #  other:
+      #  Nother:
+  mirror:
+    ref: matrix_pinky_home
+    distance: 243.7529778
