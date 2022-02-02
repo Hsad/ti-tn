@@ -32,11 +32,11 @@ points:
               shift: [-19, -19]
         middle:
           origin: [-30,0]
-          stagger: 5
+          stagger: 9
           rotate: 0
         index:
           origin: [0,-10]
-          stagger: -6
+          stagger: -9
           rotate: 0
         inner:
           origin: [-40,100]
@@ -52,8 +52,9 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-19, -53]
-        rotate: -100
+        shift: [-9, -49]
+        rotate: -90
+
 
       columns:
         near: 
@@ -80,4 +81,4 @@ points:
       #  Nother:
   mirror:
     ref: matrix_pinky_home
-    distance: 223.7529778
+    distance: 253.7529778
